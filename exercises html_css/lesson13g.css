@@ -1,0 +1,48 @@
+div {
+  font-family: Arial;
+}
+
+.container {
+  width: 500px;
+  border: solid;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.profile-picture {
+  width: 50px;
+  margin-right: 10px;
+}
+.profile {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.inbox {
+  background-color: gray;
+  width: 80px;
+  height: 55px;
+  border-radius: 6px;
+  
+}
+.author-name {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.span {
+  color: gray;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  border: solid;
+  border-color: rgb(189, 181, 181);
+  border-width: 1px;
+  border-radius: 12px;
+}
