@@ -1,0 +1,51 @@
+body {
+  height: 3000px;
+}
+
+.left-bar {
+  position: fixed;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  background-color: black;
+  width: 75px;
+  
+}
+.image {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-left: 6px;
+  margin-top: 12px;
+}
+.header {
+  position: fixed;
+  left: 75px;
+  top: 10px;
+  bottom: 10px;
+  width: 200px;
+  background-color: rgb(39, 37, 37);
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.symbol {
+  font-size: 26px;
+  color: rgb(99, 83, 83)
+}
+.name {
+  font-size: 16px;
+  color: rgb(152, 142, 142);
+  margin-bottom: 16px;
+  margin-left: 10px;
+  
+}
